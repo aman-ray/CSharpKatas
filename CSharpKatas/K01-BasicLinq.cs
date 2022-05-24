@@ -57,5 +57,12 @@ namespace CSharpKatas
             var kata = new Calculator();
             Assert.AreEqual(5050, kata.SumNumbers(1, 100));
         }
+
+        [Test]
+        public void SumNumbers_StartAt0SumNext100_TotalIs5051()
+        {
+            var kata = new Calculator();
+            Assert.AreEqual(5050, kata.SumNumbers(1, 100));
+        }
     }
 }
